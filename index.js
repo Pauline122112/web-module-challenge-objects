@@ -47,10 +47,14 @@ Using the burger object below do the following:
 export const burger = {
   name: "Burger", 
   price: 18, 
-  category: "Lunch", 
-  /*Your code here*/
+  category: "Lunch",
+  teacher: 13.5,
+  public: 16.2, 
+  discount: function(){
+    return (13.5);
+  }
 }
-
+console.log(burger.discount());
 
 
 ///////////////Reviews (MVP)///////////////////
