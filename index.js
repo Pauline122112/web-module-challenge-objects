@@ -50,11 +50,16 @@ export const burger = {
   category: "Lunch",
   teacher: 13.5,
   public: 16.2, 
-  discount: function(){
-    return (16.2);
+  discount: function(string){
+    if (string === 'teacher' || string === 'public ')
+      return this.teacher;
+      return this.public;
+    //  else (string === 'public' || string === 'teacher')
+    //    return this.public;
+     
   }
 }
-console.log(burger.discount);
+
 
 
 ///////////////Reviews (MVP)///////////////////
