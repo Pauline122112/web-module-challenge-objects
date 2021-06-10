@@ -51,10 +51,10 @@ export const burger = {
   teacher: 13.5,
   public: 16.2, 
   discount: function(){
-    return (13.5);
+    return (16.2);
   }
 }
-console.log(burger.discount());
+console.log(burger.discount);
 
 
 ///////////////Reviews (MVP)///////////////////
