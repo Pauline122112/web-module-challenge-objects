@@ -54,9 +54,6 @@ export const burger = {
     if (string === 'teacher' || string === 'public ')
       return this.teacher;
       return this.public;
-    //  else (string === 'public' || string === 'teacher')
-    //    return this.public;
-     
   }
 }
 
@@ -72,13 +69,14 @@ const reviews = [
     {name: "Julius", rating: 2, feedback: "I was largely unimpressed by this venue. Nothing special on the menu and too expensive. The atmosphere is polarizing, and not for me, but I think some would like it." },
     {name: "Lauren", rating: 4, feedback: "Absolutely love that they have karaoke Fridays! Food and drink selection is okay."},
     {name: "Reyna", rating: 3.5, feedback: ""},
-]
+];
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Using the reviews array above:
   1. log only Julius' feedback to the console - no function needed 
 */
 
+console.log(reviews[5].feedback);
 
 
 
